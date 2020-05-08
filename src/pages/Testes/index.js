@@ -6,12 +6,15 @@ import useCovid from '../../services/api'
 
 export default function Obtos() {
   const [data, setData] = useState([])
-  const {getSuspeitos} = useCovid()
+  const [dataE, setDataE] = useState([])
+  const {getSuspeitos, getExames} = useCovid()
 
-const suspeitos =  useEffect(()=>{
+  const suspeitos =  useEffect(()=>{
     getSuspeitos().then((e) => setData(e.data))
+    getExames().then((e) => setDataE(e.dataE))
   }, [])
 
+  console.log(dataE)
 
   return(
     <SafeAreaView style={styles.container}> 

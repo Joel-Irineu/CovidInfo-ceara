@@ -2,12 +2,10 @@ import React from 'react'
 import {Text, SafeAreaView, TouchableOpacity, ScrollView, Image} from 'react-native'
 import {useNavigation} from '@react-navigation/native';
 import styles from './styles'
-import returnDate from '../../services/todaysDate'
 
 import mylogo from '../../assets/logo.png'
 
 export default function Home() {
-  const todaysDate = returnDate()
   const navigation = useNavigation();
 
   function navigateToPorTIpo(){
@@ -33,6 +31,9 @@ export default function Home() {
   }
   function navigateToExames(){
     navigation.navigate('Exames');
+  }
+  function navigateToTestes(){
+    navigation.navigate('Testes');
   }
 
   return(
@@ -70,6 +71,10 @@ export default function Home() {
 
           <TouchableOpacity onPress={navigateToExames} style={styles.box}>
             <Text style={styles.boxText}>Quantidade de Exames</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity onPress={navigateToTestes} style={styles.box}>
+            <Text style={styles.boxText}>Testes</Text>
           </TouchableOpacity>
 
       </ScrollView>
