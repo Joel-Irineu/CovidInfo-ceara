@@ -43,8 +43,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O objetivo do projeto é levar ao usuario informações a sobre os casos de covid-19 no Estado do Ceará.
-Os dados são providos pela api do [IntegraSus Ceará](https://integrasus.saude.ce.gov.br)
+O CovidInfo Ceará é uma aplicação mobile que tem como objetivo informar os dados atualizados diariamente sobre o covid-19 no estado do Ceará. A aplicação retorna dados como: quantidade de municípios afetados, quantidade de pessoas por município, quantidade de casos por faixa etária/sexo, etc...
+
+A aplicação foi feita com React-Native, consumindo os dados da api do [IntegraSus Ceará](https://integrasus.saude.ce.gov.br)
 
 
 ## :memo: Licença

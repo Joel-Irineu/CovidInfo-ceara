@@ -18,7 +18,6 @@ export default function Municipios() {
 
       <Text></Text>
 
-
       <FlatList
         refreshing={false}
         onRefresh={pessoas}
