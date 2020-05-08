@@ -25,9 +25,9 @@ export default function PorTipo() {
 
         
         <View style={styles.box}>
-			<Text style={styles.boxTitle}>{item.quantidade}</Text>
-        	<Text style={styles.boxText}>{item.tipo}</Text>
-		</View>
+          <Text style={styles.boxTitle}>{item.quantidade}</Text>
+          <Text style={styles.boxText}>{item.tipo ? item.tipo : 'Indefinidos'}</Text>
+        </View>
 
         )}
         keyExtractor={(e, i)=>toString(i)}

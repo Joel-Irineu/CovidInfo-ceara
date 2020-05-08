@@ -73,9 +73,9 @@ export default function Home() {
             <Text style={styles.boxText}>Quantidade de Exames</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity onPress={navigateToTestes} style={styles.box}>
+          {/* <TouchableOpacity onPress={navigateToTestes} style={styles.box}>
             <Text style={styles.boxText}>Testes</Text>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
 
       </ScrollView>
 

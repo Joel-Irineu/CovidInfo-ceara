@@ -6,35 +6,42 @@ import useCovid from '../../services/api'
 
 export default function Obtos() {
   const [data, setData] = useState([])
-  const [dataE, setDataE] = useState([])
+  const [] = useState([])
   const {getSuspeitos, getExames} = useCovid()
 
   const suspeitos =  useEffect(()=>{
-    getSuspeitos().then((e) => setData(e.data))
-    getExames().then((e) => setDataE(e.dataE))
+    getExames().then((e) => setData(e.data))
   }, [])
 
-  console.log(dataE)
+  // const oia =  useEffect(()=>{
+  //   getExames().then((e)=> setDataExames(e.dataExames))
+  // }, [])
+  
+  console.log(dataExames)
 
   return(
     <SafeAreaView style={styles.container}> 
       <Text style={styles.title}>Quantidade de casos Suspeitos</Text> 
+
+      {/* <Text style={styles.boxText}> {data[0].quantidade} </Text> */}
 
       <FlatList
         refreshing={false}
         onRefresh={suspeitos}
         data={data}
         renderItem={({item})=>(
-
-        
-        <View style={styles.box}>
-			<Text style={styles.boxTitle}>{item.quantidade} Casos</Text>
+    
+          
+          <View style={styles.box}>
+            <Text style={styles.boxTitle}>{item.quantidadeExame} Casos</Text>
             <Text style={styles.boxText}>{item.tipo}</Text>
-		</View>
+          </View>
 
         )}
         keyExtractor={(e, i)=>toString(i)}
       />
+
+
 
     </SafeAreaView>
   );

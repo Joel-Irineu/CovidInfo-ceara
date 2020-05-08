@@ -8,8 +8,8 @@ export default function Municipios() {
   const [data, setData] = useState([])
   const {getPessoas} = useCovid()
 
-  const pessoas =  useEffect(()=>{
-      getPessoas().then((e) => setData(e.data))
+  const pessoas =  useEffect( ()=>{
+     getPessoas().then((e) => setData(e.data))
   }, [])
 
   return(
@@ -23,6 +23,7 @@ export default function Municipios() {
         refreshing={false}
         onRefresh={pessoas}
         data={data}
+        
         renderItem={({item})=>(
 
         
