@@ -33,7 +33,6 @@
 </table>
 </p>
 
-
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -54,4 +53,3 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 ---
 
 Feito com ♥ by Joel Irineu :wave: [About.me](https://about.me/joel.irineu/getstarted)
-
