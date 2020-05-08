@@ -43,7 +43,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-<p aling="justify">O objetivo do projeto é levar ao usuario informações a seca do covid-19 providos pela api do [IntegraSus Ceara](https://integrasus.saude.ce.gov.br/). [About.me](https://about.me/joel.irineu/getstarted)</p>
+<p aling="justify">O objetivo do projeto é levar ao usuario informações a seca do covid-19 providos pela api do </p>[IntegraSus Ceara](https://integrasus.saude.ce.gov.br/).
 
 
 ## :memo: Licença
