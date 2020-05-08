@@ -43,7 +43,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O objetivo do projeto é levar ao usuario informações a seca do covid-19 providos pela api do [Vanilla JS](https://integrasus.saude.ce.gov.br)
+O objetivo do projeto é levar ao usuario informações a seca do covid-19 providos pela api do [IntegraSus Ceará](https://integrasus.saude.ce.gov.br)
 
 
 ## :memo: Licença
