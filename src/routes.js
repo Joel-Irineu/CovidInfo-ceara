@@ -31,6 +31,7 @@ export default function Routes(){
                 <AppStack.Screen name="Exames" component={Exames} />
 
                 <AppStack.Screen name="Testes" component={Testes} />
+                
             </AppStack.Navigator>
         </NavigationContainer>
     )
