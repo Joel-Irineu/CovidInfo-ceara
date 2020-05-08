@@ -4,8 +4,11 @@ import {useNavigation} from '@react-navigation/native';
 import styles from './styles'
 
 import mylogo from '../../assets/logo.png'
+import atualizacao from '../../services/ultimaAtualizacao'
 
 export default function Home() {
+  const date = atualizacao()
+
   const navigation = useNavigation();
 
   function navigateToPorTIpo(){
@@ -39,6 +42,7 @@ export default function Home() {
   return(
     <SafeAreaView style={styles.container}> 
       <Image source={mylogo} style={styles.logo}/>
+    <Text style={[styles.boxText, {alignSelf: 'center', color: '#3267ff', marginTop: -5, marginBottom: 5}]}>Atualizações até o dia {date}</Text>
 
       <ScrollView>
         <TouchableOpacity onPress={navigateToPorTIpo} style={styles.box}>
