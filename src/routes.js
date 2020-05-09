@@ -5,6 +5,10 @@ import {createStackNavigator} from '@react-navigation/stack'
 const AppStack = createStackNavigator()
 
 import Home from './pages/Home'
+
+import Sobre from './pages/Sobre'
+
+import CovidInfo from './pages/CovidInfo'
 import PorTipo from './pages/PorTipo'
 import Municipios from './pages/Municipios'
 import PorMunicipio from './pages/PorMunicipio'
@@ -21,6 +25,10 @@ export default function Routes(){
         <NavigationContainer>
             <AppStack.Navigator screenOptions={{headerShown: false}}>
                 <AppStack.Screen name="Home" component={Home} />
+
+                <AppStack.Screen name="Sobre" component={Sobre} />
+
+                <AppStack.Screen name="CovidInfo" component={CovidInfo} />
                 <AppStack.Screen name="PorTipo" component={PorTipo} />
                 <AppStack.Screen name="Municipios" component={Municipios} />
                 <AppStack.Screen name="PorMunicipio" component={PorMunicipio} />

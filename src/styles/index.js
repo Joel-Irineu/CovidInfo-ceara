@@ -4,9 +4,24 @@ import Constants from 'expo-constants';
 export default StyleSheet.create({
   container:{
     flex: 1,
-    paddingHorizontal: 15,
-    paddingTop: Constants.statusBarHeight + 20,
+    paddingHorizontal: 0,
     backgroundColor: '#f7f7f7',
+  },
+  boxContainer:{
+    paddingHorizontal: 12,
+  },
+  header:{
+    backgroundColor: '#eee',
+    
+    marginBottom: 4,
+    paddingTop: Constants.statusBarHeight + 10
+  },
+  logo:{
+    width: 150,
+    height: 60,
+    alignSelf: 'center',
+    marginBottom: 10,
+    
   },
   title:{
     fontSize: 30,
@@ -48,5 +63,16 @@ export default StyleSheet.create({
     fontSize: 16,
     fontWeight: '700',
     color: '#757575'
+  },
+  aboutTitle:{
+    fontSize: 22,
+    fontWeight: 'bold',
+    color: '#3267ff'
+  },
+  aboutText:{
+    fontSize: 14,
+    fontWeight: '700',
+    color: '#757575',
+    textAlign: "justify"
   }
 })

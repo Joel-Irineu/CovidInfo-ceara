@@ -24,7 +24,6 @@ export default function Municipios() {
         data={data}
         
         renderItem={({item})=>(
-
         
         <View style={styles.box}>
           <Text style={styles.boxTitle}>{item.qtdConfirmado} Pessoas</Text>

@@ -1,10 +1,10 @@
-import React, {useState, useEffect} from 'react';
-import {Text, SafeAreaView, FlatList, View } from 'react-native';
-import styles from './styles';
+import React, {useState, useEffect} from 'react'
+import {Text, SafeAreaView, FlatList, View } from 'react-native'
+import styles from '../../styles'
 import useCovid from '../../services/api'
 
 
-export default function Obtos() {
+export default function Suspeitos() {
   const [data, setData] = useState([])
   const {getSuspeitos} = useCovid()
 

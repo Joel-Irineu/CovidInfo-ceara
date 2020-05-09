@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Text, SafeAreaView, FlatList, View } from 'react-native';
-import styles from './styles';
+import styles from '../../styles'
 import useCovid from '../../services/api'
 
 
@@ -25,9 +25,9 @@ const exames =  useEffect(()=>{
 
         
         <View style={styles.box}>
-			<Text style={styles.boxTitle}>{item.quantidadeExame} Casos</Text>
-            <Text style={styles.boxText}>{item.tipo}</Text>
-		</View>
+			    <Text style={styles.boxTitle}>{item.quantidadeExame} Casos</Text>
+          <Text style={styles.boxText}>{item.tipo}</Text>
+		    </View>
 
         )}
         keyExtractor={(e, i)=>toString(i)}

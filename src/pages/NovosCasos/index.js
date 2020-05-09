@@ -1,10 +1,10 @@
-import React, {useState, useEffect} from 'react';
-import {Text, SafeAreaView, FlatList, View } from 'react-native';
-import styles from './styles';
+import React, {useState, useEffect} from 'react'
+import {Text, SafeAreaView, FlatList, View } from 'react-native'
+import styles from '../../styles'
 import useCovid from '../../services/api'
 
 
-export default function Municipios() {
+export default function NovosCasos() {
   const [data, setData] = useState([])
   const {getNovosCasos} = useCovid()
 

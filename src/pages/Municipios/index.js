@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react';
-import {Text, SafeAreaView, FlatList, View } from 'react-native';
-import styles from './styles';
+import React, {useState, useEffect} from 'react'
+import {Text, SafeAreaView, FlatList, View } from 'react-native'
+import styles from '../../styles'
 import useCovid from '../../services/api'
 
 
