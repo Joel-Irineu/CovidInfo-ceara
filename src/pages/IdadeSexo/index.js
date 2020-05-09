@@ -14,8 +14,10 @@ const idadeSexo =  useEffect(()=>{
 
 
   return(
-    <SafeAreaView style={styles.container}> 
-      <Text style={styles.title}>Quantidade de casos por faixa etaria/Sexo</Text> 
+    <SafeAreaView style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.title}>Quantidade de casos por faixa etaria/Sexo</Text> 
+      </View> 
 
       <FlatList
         refreshing={false}

@@ -14,8 +14,10 @@ export default function PorTipo() {
 
 
   return(
-    <SafeAreaView style={styles.container}> 
-      <Text style={styles.title}>Dados da COVID-19 por situação</Text> 
+    <SafeAreaView style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.title}>Dados da COVID-19 por situação</Text> 
+      </View> 
 
       <FlatList
         refreshing={false}

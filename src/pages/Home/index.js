@@ -14,6 +14,9 @@ export default function Home() {
   function navigateToSobre(){
     navigation.navigate('Sobre')
   }
+  function navigateToAutoAvaliacao(){
+    navigation.navigate('AutoAvaliacao')
+  }
 
 
   return(
@@ -30,6 +33,10 @@ export default function Home() {
 
         <TouchableOpacity onPress={navigateToCovidInfo} style={styles.box}>
           <Text style={styles.boxText}>Dados no Estado do Ceará</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity onPress={navigateToAutoAvaliacao} style={styles.box}>
+          <Text style={styles.boxText}>Faça uma Auto avaliação</Text>
         </TouchableOpacity>
 
       </ScrollView>

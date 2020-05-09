@@ -15,7 +15,9 @@ export default function Municipios() {
 
   return(
     <SafeAreaView style={styles.container}> 
-      <Text style={styles.title}>Quantidade de municipios afetados</Text> 
+      <View style={styles.header}>
+        <Text style={styles.title}>Quantidade de municipios afetados</Text> 
+      </View>
 
       <FlatList
         refreshing={false}

@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react';
-import {Text, SafeAreaView, FlatList, View } from 'react-native';
-import styles from './styles';
+import React, {useState, useEffect} from 'react'
+import {Text, SafeAreaView, FlatList, View } from 'react-native'
+import styles from '../../styles'
 import useCovid from '../../services/api'
 
 
@@ -14,7 +14,9 @@ export default function Municipios() {
 
   return(
     <SafeAreaView style={styles.container}> 
-      <Text style={styles.title}>Pessoas confirmadas por Município</Text> 
+      <View style={styles.header}>
+        <Text style={styles.title}>Pessoas confirmadas por Município</Text> 
+      </View>
 
       <Text></Text>
 
@@ -31,7 +33,7 @@ export default function Municipios() {
         </View>
 
         )}
-        keyExtractor={(e, i)=>toString(i)}
+        keyExtractor={(e, i)=>i.idMunicipio}
       />
 
     </SafeAreaView>

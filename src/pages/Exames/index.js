@@ -15,7 +15,9 @@ const exames =  useEffect(()=>{
 
   return(
     <SafeAreaView style={styles.container}> 
-      <Text style={styles.title}>Quantidade de Exames realizados</Text> 
+      <View style={styles.header}>
+        <Text style={styles.title}>Quantidade de Exames realizados</Text> 
+      </View>
 
       <FlatList
         refreshing={false}

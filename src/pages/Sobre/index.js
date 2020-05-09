@@ -29,7 +29,7 @@ export default function Sobre() {
                 <Text style={styles.aboutText}>O Quadro pode variar de leve a moderado semelhante a uma gripe, já outros casos podem ser mais graves principalmente em pessoas com doenças preeexistentes e podendo levar a morte.</Text>
             </View>
 
-            <Text style={[styles.aboutTitle, {marginTop: 10}, styles.boxContainer]}>Principains sintomas</Text>
+            <Text style={[styles.aboutTitle, {marginTop: 10}, styles.boxContainer]}>Principais sintomas</Text>
             <FlatList
                 data={sintomasCovid}
                 horizontal={true}
@@ -55,7 +55,7 @@ export default function Sobre() {
                 keyExtractor={item => item.id}
             />
 
-            <Text style={[styles.aboutTitle, {marginTop: 10}, styles.boxContainer]}>Como se prevenir:</Text>
+            <Text style={[styles.aboutTitle, {marginTop: 10}, styles.boxContainer]}>Como se prevenir</Text>
             <FlatList
                 style={{marginBottom: 20}}
                 data={prevencaoCovid}

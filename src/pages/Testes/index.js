@@ -20,7 +20,8 @@ export default function Testes() {
   console.log(dataExames)
 
   return(
-    <SafeAreaView style={styles.container}> 
+    <SafeAreaView style={styles.container}>
+       
       <Text style={styles.title}>Quantidade de casos Suspeitos</Text> 
 
       {/* <Text style={styles.boxText}> {data[0].quantidade} </Text> */}

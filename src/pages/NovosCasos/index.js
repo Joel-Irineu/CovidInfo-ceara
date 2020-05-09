@@ -14,8 +14,10 @@ const novosCasos =  useEffect(()=>{
 
 
   return(
-    <SafeAreaView style={styles.container}> 
-      <Text style={styles.title}>Quantidade de novos casos por dia</Text> 
+    <SafeAreaView style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.title}>Quantidade de novos casos por dia</Text> 
+      </View>
 
       <FlatList
         refreshing={false}

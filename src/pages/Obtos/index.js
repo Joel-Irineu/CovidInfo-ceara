@@ -15,7 +15,9 @@ const obto =  useEffect(()=>{
 
   return(
     <SafeAreaView style={styles.container}> 
-      <Text style={styles.title}>Quantidade de óbito por Município</Text> 
+      <View style={styles.header}>
+        <Text style={styles.title}>Quantidade de óbito por Município</Text> 
+      </View>
 
       <FlatList
         refreshing={false}

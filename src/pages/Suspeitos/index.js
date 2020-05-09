@@ -14,8 +14,10 @@ const suspeitos =  useEffect(()=>{
 
 
   return(
-    <SafeAreaView style={styles.container}> 
-      <Text style={styles.title}>Quantidade de casos Suspeitos</Text> 
+    <SafeAreaView style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.title}>Quantidade de casos Suspeitos</Text> 
+      </View> 
 
       <FlatList
         refreshing={false}

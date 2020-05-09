@@ -5,8 +5,6 @@ import mascara from '../assets/prevencao/mascara.png'
 import distancia from '../assets/prevencao/distancia.png'
 import medica from '../assets/prevencao/medica.png'
 
-
-
 export default function prevencao(){
 
     return [
