@@ -4,9 +4,9 @@ import {useNavigation} from '@react-navigation/native';
 import styles from '../../styles'
 
 import mylogo from '../../assets/logo.png'
-import sobre from '../../assets/icons/sobre.png'
+import covid from '../../assets/icons/covid.png'
 import dados from '../../assets/icons/dados.png'
-import avaliacao from '../../assets/icons/sobre.png'
+import avaliacao from '../../assets/icons/avaliacao.png'
 
 export default function Home() {
   const navigation = useNavigation()
@@ -21,7 +21,6 @@ export default function Home() {
     navigation.navigate('AutoAvaliacao')
   }
 
-
   return(
     <SafeAreaView style={styles.container}> 
       <View style={styles.header}>
@@ -30,16 +29,19 @@ export default function Home() {
       </View>
 
       <ScrollView>
-      <TouchableOpacity onPress={navigateToSobre} style={styles.box}>
-          <Text style={styles.boxText}>Sobre o novo virus(sintomas, prevenção e transmição)</Text>
+      <TouchableOpacity onPress={navigateToSobre} style={[styles.box, {flexDirection: 'row'}]}>
+          <Image source={covid} style={{width: 50, height: 50}} />
+          <Text style={[styles.boxText, {marginLeft: 5, alignContent: 'center'}]}>Sobre o novo virus(sintomas, prevenção e transmição)</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={navigateToCovidInfo} style={styles.box}>
-          <Text style={styles.boxText}>Dados no Estado do Ceará</Text>
+        <TouchableOpacity onPress={navigateToCovidInfo} style={[styles.box, {flexDirection: 'row'}]}>
+          <Image source={dados} style={{width: 50, height: 50}} />
+          <Text style={[styles.boxText, {marginLeft: 5, alignContent: 'center', alignSelf: 'center'}]}>Dados no Estado do Ceará</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={navigateToAutoAvaliacao} style={styles.box}>
-          <Text style={styles.boxText}>Faça uma Auto avaliação</Text>
+        <TouchableOpacity onPress={navigateToAutoAvaliacao} style={[styles.box, {flexDirection: 'row'}]}>
+          <Image source={avaliacao} style={{width: 50, height: 50}} />
+          <Text style={[styles.boxText, {marginLeft: 5, alignContent: 'center', alignSelf: 'center'}]}>Faça uma Auto avaliação</Text>
         </TouchableOpacity>
 
       </ScrollView>
