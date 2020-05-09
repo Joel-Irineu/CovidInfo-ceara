@@ -48,7 +48,6 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [React Native](https://reactnative.dev/)
-- [Expo](https://expo.io/)
 - [Vanilla JS](https://www.w3schools.com/js/)
 
 ## 💻 Projeto
