@@ -7,6 +7,7 @@ import mylogo from '../../assets/logo.png'
 import covid from '../../assets/icons/covid.png'
 import dados from '../../assets/icons/dados.png'
 import avaliacao from '../../assets/icons/avaliacao.png'
+import sobre from '../../assets/icons/sobre.png'
 
 export default function Home() {
   const navigation = useNavigation()
@@ -19,6 +20,9 @@ export default function Home() {
   }
   function navigateToAutoAvaliacao(){
     navigation.navigate('AutoAvaliacao')
+  }
+  function navigateToSobreApp(){
+    navigation.navigate('SobreApp')
   }
 
   return(
@@ -42,6 +46,11 @@ export default function Home() {
         <TouchableOpacity onPress={navigateToAutoAvaliacao} style={[styles.box, {flexDirection: 'row'}]}>
           <Image source={avaliacao} style={{width: 50, height: 50}} />
           <Text style={[styles.boxText, {marginLeft: 5, alignContent: 'center', alignSelf: 'center'}]}>Faça uma Auto avaliação</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity onPress={navigateToSobreApp} style={[styles.box, {flexDirection: 'row'}]}>
+          <Image source={sobre} style={{width: 50, height: 50}} />
+          <Text style={[styles.boxText, {marginLeft: 5, alignContent: 'center', alignSelf: 'center'}]}>Sobre o App</Text>
         </TouchableOpacity>
 
       </ScrollView>

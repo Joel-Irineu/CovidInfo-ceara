@@ -45,6 +45,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O CovidInfo Ceará é uma aplicação mobile que tem como objetivo informar os dados atualizados diariamente sobre o covid-19 no estado do Ceará. A aplicação retorna dados como: quantidade de municípios afetados, quantidade de pessoas por município, quantidade de casos por faixa etária/sexo, etc...
 
+Além disso, no app o usuário tem acesso a informações sobre o vírus, prevenção e pode fazer uma auto avaliação a cerca da sua saúde.
+
 A aplicação foi feita com React-Native, consumindo os dados da api do [IntegraSus Ceará](https://integrasus.saude.ce.gov.br)
 
 
