@@ -27,8 +27,8 @@ const exames =  useEffect(()=>{
 
         
         <View style={styles.box}>
-			    <Text style={styles.boxTitle}>{item.quantidadeExame} Casos</Text>
-          <Text style={styles.boxText}>{item.tipo}</Text>
+			    <Text style={styles.boxTitle}>{item.quantidade}</Text>
+          <Text style={styles.boxText}>{item.tipo} Realizados</Text>
 		    </View>
 
         )}

@@ -28,7 +28,7 @@ export default function Municipios() {
         renderItem={({item})=>(
         
         <View style={styles.box}>
-          <Text style={styles.boxTitle}>{item.qtdConfirmado} Pessoas</Text>
+          <Text style={styles.boxTitle}>{item.quantidade} Pessoas</Text>
           <Text style={styles.boxText}>{item.municipio}</Text>
         </View>
 

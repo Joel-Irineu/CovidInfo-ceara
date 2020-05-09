@@ -16,20 +16,30 @@
 
 <p align="center">
   <table border="1" style="width: 100%;">
-    <thead>
         <tr>
             <th>SPLASH</th>
             <th>HOME</th>
-            <th>DETAILS</th>
+            <th>SOBRE A COVID-19</th>
+            <th>DADOS DO ESTADO DO CEARÁ</th>
         </tr>
-    </thead>
-    <tbody>
         <tr>
-            <td style="width: 33.33%; padding: 5px;"><img src="https://bit.ly/2LmF5FH" alt="splash" style="width: 100%;"></td>
-            <td style="width: 33.33%; padding: 5px;"><img src="https://bit.ly/3bbpWRJ" alt="Home" style="width: 100%;"></td>
-            <td style="width: 33.33%; padding: 5px;"><img src="https://bit.ly/2WhzpDb" alt="Details" style="width: 100%;"></td>
+            <td style="width: 25%; padding: 5px;"><img src="https://bit.ly/2LmF5FH" alt="splash" style="width: 100%;"></td>
+            <td style="width: 25%; padding: 5px;"><img src="https://bit.ly/35SNoCw" alt="Home" style="width: 100%;"></td>
+            <td style="width: 25%; padding: 5px;"><img src="https://bit.ly/2WjFOxi" alt="Details" style="width: 100%;"></td>
+            <td style="width: 25%; padding: 5px;"><img src="https://bit.ly/2LcMzuv" alt="Details" style="width: 100%;"></td>
         </tr>
-    </tbody>
+        <tr>
+            <th>ICONE</th>
+            <th>DADOS</th>
+            <th>AUTO AVALIAÇÃO</th>
+            <th>SOBRE O APP</th>
+        </tr>
+        <tr>
+            <td style="width: 25%; padding: 5px;"><img src="https://bit.ly/2WHNGb1" alt="Details" style="width: 100%;"></td>
+            <td style="width: 25%; padding: 5px;"><img src="https://bit.ly/2WhzpDb" alt="splash" style="width: 100%;"></td>
+            <td style="width: 25%; padding: 5px;"><img src="https://bit.ly/2LgKga0" alt="Home" style="width: 100%;"></td>
+            <td style="width: 25%; padding: 5px;"><img src="https://bit.ly/3cliLb1" alt="Details" style="width: 100%;"></td>
+        </tr>
 </table>
 </p>
 
