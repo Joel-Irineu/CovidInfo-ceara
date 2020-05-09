@@ -4,6 +4,9 @@ import {useNavigation} from '@react-navigation/native';
 import styles from '../../styles'
 
 import mylogo from '../../assets/logo.png'
+import sobre from '../../assets/icons/sobre.png'
+import dados from '../../assets/icons/dados.png'
+import avaliacao from '../../assets/icons/sobre.png'
 
 export default function Home() {
   const navigation = useNavigation()

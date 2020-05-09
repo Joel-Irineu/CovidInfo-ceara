@@ -12,7 +12,7 @@ export default StyleSheet.create({
   },
   header:{
     backgroundColor: '#eee',
-    
+    paddingHorizontal: 12,
     marginBottom: 4,
     paddingTop: Constants.statusBarHeight + 10
   },
@@ -74,5 +74,8 @@ export default StyleSheet.create({
     fontWeight: '700',
     color: '#757575',
     textAlign: "justify"
+  },
+  btn:{
+    backgroundColor: '#de4d60'
   }
 })
